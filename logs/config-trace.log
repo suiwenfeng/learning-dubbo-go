@@ -1,0 +1,4 @@
+2021-02-24 19:57:21,457|491bd8d5dc5c|nacos.cfg.dataId|test|null|null|1614167841416|491bd8d5dc5c|persist|pub|-1|1a833da63a6b7e20098dae06d06602e1
+2021-02-24 19:57:21,469|491bd8d5dc5c|nacos.cfg.dataId|test|null|null|1614167841416|491bd8d5dc5c|notify|ok|50|491bd8d5dc5c:8848
+2021-02-24 19:57:21,548|491bd8d5dc5c|nacos.cfg.dataId|test|null|null|1614167841416|491bd8d5dc5c|dump|ok|132|10
+2021-02-24 19:57:28,302|491bd8d5dc5c|nacos.cfg.dataId|test|null|null|1614167841416|pull|ok|6886|172.18.0.1

@@ -1,0 +1,42 @@
+version: "2"
+services:
+  mysql:
+    image: mysql
+    container_name: mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d
+    ports:
+      - "3306:3306"
+
+  nacos:
+    image: nacos/nacos-server:latest
+    container_name: nacos
+    environment:
+      - PREFER_HOST_MODE=hostname
+      - MODE=standalone
+    volumes:
+      - ./logs:/home/nacos/logs
+      - ./nacos/custom.properties:/home/nacos/init.d/custom.properties
+    ports:
+      - "8848:8848"
+
+  prometheus:
+    container_name: prometheus
+    image: prom/prometheus:latest
+    volumes:
+      - ./prometheus/prometheus-standalone.yaml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9091:9090"
+
+  grafana:
+    container_name: grafana
+    image: grafana/grafana:latest
+    volumes:
+      - ./grafana/prometheus.yml:/etc/grafana/provisioning/datasources/prometheus.yml
+      - ./grafana/dashboards.yml:/etc/grafana/provisioning/dashboards/default.yml
+      - ./grafana/dashboards:/var/lib/grafana/dashboards
+      - ./logs:/var/log/grafana
+    ports:
+      - 3000:3000
