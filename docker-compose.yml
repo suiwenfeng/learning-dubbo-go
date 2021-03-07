@@ -1,5 +1,35 @@
-version: "2"
+version: "3"
 services:
+  seata:
+    container_name: seata
+    image: seataio/seata-server
+    ports:
+      - "8091:8091"
+    volumes:
+      - ./seata/registry.conf:/root/registry.conf
+    environment:
+      - SEATA_PORT=8091
+      - STORE_MODE=file
+      - SEATA_CONFIG_NAME=/root/registry
+    depends_on:
+      - nacos
+
+  product-svc:
+    container_name: product-svc
+    build:
+      context: ./services
+      dockerfile: Dockerfile
+      args:
+        - APP=product-svc
+    environment:
+      - APP=product-svc
+      - CONF_PROVIDER_FILE_PATH=/build/product-svc/profiles/dev/server.yml
+      - APP_LOG_CONF_FILE=/build/product-svc/profiles/dev/log.yml
+      - SEATA_CONF_FILE=/build/product-svc/profiles/dev/seata.yml
+    depends_on:
+      - mysql
+      - seata
+
   mysql:
     image: mysql
     container_name: mysql

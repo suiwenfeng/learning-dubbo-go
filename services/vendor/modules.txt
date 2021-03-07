@@ -1,0 +1,316 @@
+# github.com/RoaringBitmap/roaring v0.5.5
+github.com/RoaringBitmap/roaring
+# github.com/StackExchange/wmi v0.0.0-20190523213315-cbe66965904d
+github.com/StackExchange/wmi
+# github.com/Workiva/go-datastructures v1.0.52
+github.com/Workiva/go-datastructures/common
+github.com/Workiva/go-datastructures/queue
+# github.com/afex/hystrix-go v0.0.0-20180502004556-fa1af6a1f4f5
+github.com/afex/hystrix-go/hystrix
+github.com/afex/hystrix-go/hystrix/metric_collector
+github.com/afex/hystrix-go/hystrix/rolling
+# github.com/alibaba/sentinel-golang v1.0.2
+github.com/alibaba/sentinel-golang/api
+github.com/alibaba/sentinel-golang/core/base
+github.com/alibaba/sentinel-golang/core/circuitbreaker
+github.com/alibaba/sentinel-golang/core/config
+github.com/alibaba/sentinel-golang/core/flow
+github.com/alibaba/sentinel-golang/core/hotspot
+github.com/alibaba/sentinel-golang/core/hotspot/cache
+github.com/alibaba/sentinel-golang/core/isolation
+github.com/alibaba/sentinel-golang/core/log
+github.com/alibaba/sentinel-golang/core/log/metric
+github.com/alibaba/sentinel-golang/core/stat
+github.com/alibaba/sentinel-golang/core/stat/base
+github.com/alibaba/sentinel-golang/core/system
+github.com/alibaba/sentinel-golang/logging
+github.com/alibaba/sentinel-golang/util
+# github.com/aliyun/alibaba-cloud-sdk-go v1.61.18
+github.com/aliyun/alibaba-cloud-sdk-go/sdk
+github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth
+github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials
+github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/credentials/provider
+github.com/aliyun/alibaba-cloud-sdk-go/sdk/auth/signers
+github.com/aliyun/alibaba-cloud-sdk-go/sdk/endpoints
+github.com/aliyun/alibaba-cloud-sdk-go/sdk/errors
+github.com/aliyun/alibaba-cloud-sdk-go/sdk/requests
+github.com/aliyun/alibaba-cloud-sdk-go/sdk/responses
+github.com/aliyun/alibaba-cloud-sdk-go/sdk/utils
+github.com/aliyun/alibaba-cloud-sdk-go/services/kms
+# github.com/apache/dubbo-getty v1.4.3
+github.com/apache/dubbo-getty
+# github.com/apache/dubbo-go v1.5.6-rc1
+## explicit
+github.com/apache/dubbo-go/cluster
+github.com/apache/dubbo-go/cluster/cluster_impl
+github.com/apache/dubbo-go/cluster/directory
+github.com/apache/dubbo-go/cluster/loadbalance
+github.com/apache/dubbo-go/cluster/router
+github.com/apache/dubbo-go/cluster/router/chain
+github.com/apache/dubbo-go/cluster/router/utils
+github.com/apache/dubbo-go/common
+github.com/apache/dubbo-go/common/config
+github.com/apache/dubbo-go/common/constant
+github.com/apache/dubbo-go/common/extension
+github.com/apache/dubbo-go/common/logger
+github.com/apache/dubbo-go/common/observer
+github.com/apache/dubbo-go/common/observer/dispatcher
+github.com/apache/dubbo-go/common/proxy
+github.com/apache/dubbo-go/common/proxy/proxy_factory
+github.com/apache/dubbo-go/common/yaml
+github.com/apache/dubbo-go/config
+github.com/apache/dubbo-go/config/instance
+github.com/apache/dubbo-go/config/interfaces
+github.com/apache/dubbo-go/config_center
+github.com/apache/dubbo-go/config_center/configurator
+github.com/apache/dubbo-go/config_center/parser
+github.com/apache/dubbo-go/filter
+github.com/apache/dubbo-go/filter/filter_impl
+github.com/apache/dubbo-go/filter/filter_impl/tps
+github.com/apache/dubbo-go/filter/handler
+github.com/apache/dubbo-go/metadata/identifier
+github.com/apache/dubbo-go/metadata/mapping
+github.com/apache/dubbo-go/metadata/report
+github.com/apache/dubbo-go/metadata/report/factory
+github.com/apache/dubbo-go/metadata/service
+github.com/apache/dubbo-go/metrics
+github.com/apache/dubbo-go/protocol
+github.com/apache/dubbo-go/protocol/dubbo
+github.com/apache/dubbo-go/protocol/dubbo/impl
+github.com/apache/dubbo-go/protocol/invocation
+github.com/apache/dubbo-go/protocol/protocolwrapper
+github.com/apache/dubbo-go/protocol/rest/client
+github.com/apache/dubbo-go/protocol/rest/config
+github.com/apache/dubbo-go/protocol/rest/server
+github.com/apache/dubbo-go/registry
+github.com/apache/dubbo-go/registry/directory
+github.com/apache/dubbo-go/registry/nacos
+github.com/apache/dubbo-go/registry/protocol
+github.com/apache/dubbo-go/registry/servicediscovery/instance
+github.com/apache/dubbo-go/remoting
+github.com/apache/dubbo-go/remoting/getty
+github.com/apache/dubbo-go/remoting/nacos
+# github.com/apache/dubbo-go-hessian2 v1.8.2
+## explicit
+github.com/apache/dubbo-go-hessian2
+github.com/apache/dubbo-go-hessian2/java8_time
+github.com/apache/dubbo-go-hessian2/java_exception
+github.com/apache/dubbo-go-hessian2/java_sql_time
+# github.com/buger/jsonparser v0.0.0-20181115193947-bf1c66bbce23
+github.com/buger/jsonparser
+# github.com/bwmarrin/snowflake v0.3.0
+## explicit
+github.com/bwmarrin/snowflake
+# github.com/creasty/defaults v1.5.1
+github.com/creasty/defaults
+# github.com/dubbogo/gost v1.11.0
+github.com/dubbogo/gost/bytes
+github.com/dubbogo/gost/container/set
+github.com/dubbogo/gost/context
+github.com/dubbogo/gost/hash/page
+github.com/dubbogo/gost/math/big
+github.com/dubbogo/gost/net
+github.com/dubbogo/gost/path/filepath
+github.com/dubbogo/gost/runtime
+github.com/dubbogo/gost/sort
+github.com/dubbogo/gost/strings
+github.com/dubbogo/gost/sync
+github.com/dubbogo/gost/time
+# github.com/glycerine/go-unsnap-stream v0.0.0-20181221182339-f9677308dec2
+github.com/glycerine/go-unsnap-stream
+# github.com/go-errors/errors v1.0.1
+github.com/go-errors/errors
+# github.com/go-ole/go-ole v1.2.4
+github.com/go-ole/go-ole
+github.com/go-ole/go-ole/oleutil
+# github.com/go-sql-driver/mysql v1.4.1
+github.com/go-sql-driver/mysql
+# github.com/golang/mock v1.4.4
+github.com/golang/mock/gomock
+# github.com/golang/protobuf v1.4.3
+github.com/golang/protobuf/proto
+# github.com/golang/snappy v0.0.1
+github.com/golang/snappy
+# github.com/google/go-cmp v0.4.0
+github.com/google/go-cmp/cmp
+github.com/google/go-cmp/cmp/internal/diff
+github.com/google/go-cmp/cmp/internal/flags
+github.com/google/go-cmp/cmp/internal/function
+github.com/google/go-cmp/cmp/internal/value
+# github.com/google/uuid v1.1.2
+github.com/google/uuid
+# github.com/gorilla/websocket v1.4.2
+github.com/gorilla/websocket
+# github.com/jinzhu/copier v0.0.0-20190625015134-976e0346caa8
+github.com/jinzhu/copier
+# github.com/jmespath/go-jmespath v0.0.0-20180206201540-c2b33e8439af
+github.com/jmespath/go-jmespath
+# github.com/json-iterator/go v1.1.10
+github.com/json-iterator/go
+# github.com/lestrrat/go-file-rotatelogs v0.0.0-20180223000712-d3151e2a480f
+github.com/lestrrat/go-file-rotatelogs
+# github.com/lestrrat/go-strftime v0.0.0-20180220042222-ba3bf9c1d042
+github.com/lestrrat/go-strftime
+# github.com/magiconair/properties v1.8.4
+github.com/magiconair/properties
+# github.com/mitchellh/mapstructure v1.4.1
+github.com/mitchellh/mapstructure
+# github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd
+github.com/modern-go/concurrent
+# github.com/modern-go/reflect2 v1.0.1
+github.com/modern-go/reflect2
+# github.com/mschoch/smat v0.0.0-20160514031455-90eadee771ae
+github.com/mschoch/smat
+# github.com/nacos-group/nacos-sdk-go v1.0.5
+github.com/nacos-group/nacos-sdk-go/clients
+github.com/nacos-group/nacos-sdk-go/clients/cache
+github.com/nacos-group/nacos-sdk-go/clients/config_client
+github.com/nacos-group/nacos-sdk-go/clients/nacos_client
+github.com/nacos-group/nacos-sdk-go/clients/naming_client
+github.com/nacos-group/nacos-sdk-go/common/constant
+github.com/nacos-group/nacos-sdk-go/common/file
+github.com/nacos-group/nacos-sdk-go/common/http_agent
+github.com/nacos-group/nacos-sdk-go/common/logger
+github.com/nacos-group/nacos-sdk-go/common/nacos_error
+github.com/nacos-group/nacos-sdk-go/common/nacos_server
+github.com/nacos-group/nacos-sdk-go/common/security
+github.com/nacos-group/nacos-sdk-go/inner/uuid
+github.com/nacos-group/nacos-sdk-go/model
+github.com/nacos-group/nacos-sdk-go/util
+github.com/nacos-group/nacos-sdk-go/vo
+# github.com/opentracing/opentracing-go v1.2.0
+github.com/opentracing/opentracing-go
+github.com/opentracing/opentracing-go/log
+# github.com/patrickmn/go-cache v2.1.0+incompatible
+github.com/patrickmn/go-cache
+# github.com/philhofer/fwd v1.0.0
+github.com/philhofer/fwd
+# github.com/pingcap/errors v0.11.5-0.20190809092503-95897b64e011
+github.com/pingcap/errors
+# github.com/pingcap/log v0.0.0-20200117041106-d28c14d3b1cd
+github.com/pingcap/log
+# github.com/pingcap/parser v0.0.0-20200424075042-8222d8b724a4
+github.com/pingcap/parser
+github.com/pingcap/parser/ast
+github.com/pingcap/parser/auth
+github.com/pingcap/parser/charset
+github.com/pingcap/parser/format
+github.com/pingcap/parser/model
+github.com/pingcap/parser/mysql
+github.com/pingcap/parser/opcode
+github.com/pingcap/parser/terror
+github.com/pingcap/parser/test_driver
+github.com/pingcap/parser/types
+# github.com/pkg/errors v0.9.1
+github.com/pkg/errors
+# github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
+github.com/satori/go.uuid
+# github.com/shima-park/agollo v1.2.6
+github.com/shima-park/agollo
+# github.com/shirou/gopsutil v3.20.11+incompatible
+github.com/shirou/gopsutil/cpu
+github.com/shirou/gopsutil/internal/common
+github.com/shirou/gopsutil/load
+github.com/shirou/gopsutil/mem
+github.com/shirou/gopsutil/net
+github.com/shirou/gopsutil/process
+# github.com/tinylib/msgp v1.1.0
+github.com/tinylib/msgp/msgp
+# github.com/toolkits/concurrent v0.0.0-20150624120057-a4371d70e3e3
+github.com/toolkits/concurrent/semaphore
+# github.com/transaction-wg/seata-golang v0.1.9
+## explicit
+github.com/transaction-wg/seata-golang/pkg/base/getty
+github.com/transaction-wg/seata-golang/pkg/base/getty/config
+github.com/transaction-wg/seata-golang/pkg/base/getty/readwriter
+github.com/transaction-wg/seata-golang/pkg/base/meta
+github.com/transaction-wg/seata-golang/pkg/base/model
+github.com/transaction-wg/seata-golang/pkg/base/protocal
+github.com/transaction-wg/seata-golang/pkg/base/protocal/codec
+github.com/transaction-wg/seata-golang/pkg/client
+github.com/transaction-wg/seata-golang/pkg/client/at/exec
+github.com/transaction-wg/seata-golang/pkg/client/at/proxy_tx
+github.com/transaction-wg/seata-golang/pkg/client/at/sql/schema
+github.com/transaction-wg/seata-golang/pkg/client/at/sql/schema/cache
+github.com/transaction-wg/seata-golang/pkg/client/at/sqlparser
+github.com/transaction-wg/seata-golang/pkg/client/at/sqlparser/mysql
+github.com/transaction-wg/seata-golang/pkg/client/at/undo
+github.com/transaction-wg/seata-golang/pkg/client/at/undo/manager
+github.com/transaction-wg/seata-golang/pkg/client/at/undo/parser
+github.com/transaction-wg/seata-golang/pkg/client/config
+github.com/transaction-wg/seata-golang/pkg/client/context
+github.com/transaction-wg/seata-golang/pkg/client/proxy
+github.com/transaction-wg/seata-golang/pkg/client/rm
+github.com/transaction-wg/seata-golang/pkg/client/rpc_client
+github.com/transaction-wg/seata-golang/pkg/client/tm
+github.com/transaction-wg/seata-golang/pkg/util/log
+github.com/transaction-wg/seata-golang/pkg/util/mysql
+github.com/transaction-wg/seata-golang/pkg/util/sql
+# github.com/willf/bitset v1.1.10
+github.com/willf/bitset
+# go.uber.org/atomic v1.7.0
+go.uber.org/atomic
+# go.uber.org/multierr v1.5.0
+go.uber.org/multierr
+# go.uber.org/zap v1.16.0
+go.uber.org/zap
+go.uber.org/zap/buffer
+go.uber.org/zap/internal/bufferpool
+go.uber.org/zap/internal/color
+go.uber.org/zap/internal/exit
+go.uber.org/zap/zapcore
+# golang.org/x/sys v0.0.0-20201223074533-0d417f636930
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/text v0.3.2
+golang.org/x/text/encoding
+golang.org/x/text/encoding/charmap
+golang.org/x/text/encoding/internal
+golang.org/x/text/encoding/internal/identifier
+golang.org/x/text/encoding/japanese
+golang.org/x/text/encoding/korean
+golang.org/x/text/encoding/simplifiedchinese
+golang.org/x/text/encoding/traditionalchinese
+golang.org/x/text/encoding/unicode
+golang.org/x/text/internal/utf8internal
+golang.org/x/text/runes
+golang.org/x/text/transform
+# google.golang.org/appengine v1.6.1
+google.golang.org/appengine/cloudsql
+# google.golang.org/protobuf v1.23.0
+google.golang.org/protobuf/encoding/prototext
+google.golang.org/protobuf/encoding/protowire
+google.golang.org/protobuf/internal/descfmt
+google.golang.org/protobuf/internal/descopts
+google.golang.org/protobuf/internal/detrand
+google.golang.org/protobuf/internal/encoding/defval
+google.golang.org/protobuf/internal/encoding/messageset
+google.golang.org/protobuf/internal/encoding/tag
+google.golang.org/protobuf/internal/encoding/text
+google.golang.org/protobuf/internal/errors
+google.golang.org/protobuf/internal/fieldnum
+google.golang.org/protobuf/internal/fieldsort
+google.golang.org/protobuf/internal/filedesc
+google.golang.org/protobuf/internal/filetype
+google.golang.org/protobuf/internal/flags
+google.golang.org/protobuf/internal/genname
+google.golang.org/protobuf/internal/impl
+google.golang.org/protobuf/internal/mapsort
+google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/set
+google.golang.org/protobuf/internal/strs
+google.golang.org/protobuf/internal/version
+google.golang.org/protobuf/proto
+google.golang.org/protobuf/reflect/protoreflect
+google.golang.org/protobuf/reflect/protoregistry
+google.golang.org/protobuf/runtime/protoiface
+google.golang.org/protobuf/runtime/protoimpl
+# gopkg.in/ini.v1 v1.51.0
+gopkg.in/ini.v1
+# gopkg.in/natefinch/lumberjack.v2 v2.0.0
+gopkg.in/natefinch/lumberjack.v2
+# gopkg.in/yaml.v2 v2.4.0
+gopkg.in/yaml.v2
+# vimagination.zapto.org/byteio v0.0.0-20200222190125-d27cba0f0b10
+vimagination.zapto.org/byteio

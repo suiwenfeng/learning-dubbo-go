@@ -1,6 +1,12 @@
-2021-02-24 19:56:45,367 INFO DEFAULT_GROUP@@nacos.naming.serviceName is changed, add it to push queue.
+2021-03-08 07:34:09,293 INFO send udp packet: 127.0.0.1,55207,17315291887517
 
-2021-02-24 19:57:00,232 INFO DEFAULT_GROUP@@nacos.naming.serviceName is changed, add it to push queue.
+2021-03-08 07:34:13,557 INFO retry to push data, key: 127.0.0.1,55207,17321357672617
 
-2021-02-24 19:57:15,321 INFO DEFAULT_GROUP@@nacos.naming.serviceName is changed, add it to push queue.
+2021-03-08 07:34:14,172 INFO send udp packet: 127.0.0.1,55207,17321357672617
+
+2021-03-08 07:34:14,610 INFO DEFAULT_GROUP@@providers:com.dubbogo.seata.ProductSvc is changed, add it to push queue.
+
+2021-03-08 07:34:15,460 INFO serviceName: DEFAULT_GROUP@@providers:com.dubbogo.seata.ProductSvc changed, schedule push for: 127.0.0.1:55207, agent: Nacos-Go-Client:v1.0.1, key: 127.0.0.1,55207,17339833479617
+
+2021-03-08 07:34:15,794 INFO send udp packet: 127.0.0.1,55207,17339833479617
 
