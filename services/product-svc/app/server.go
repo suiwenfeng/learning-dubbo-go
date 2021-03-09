@@ -62,7 +62,8 @@ var (
 //      export SEATA_CONF_FILE="xxx"
 func main() {
 	confFile := os.Getenv(SEATA_CONF_FILE)
-	config2.InitConf(confFile)
+	logger.Infof("init config file %s", confFile)
+	config2.InitConf("../profiles/dev/seata.yml")
 	client.NewRpcClient()
 	exec.InitDataResourceManager()
 

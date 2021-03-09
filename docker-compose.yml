@@ -10,9 +10,10 @@ services:
       - ./seata-product/file.conf:/seata-server/resources/file.conf
     environment:
       - SEATA_PORT=8091
-      - STORE_MODE=file
+      - STORE_MODE=db
     depends_on:
       - nacos
+      - mysql
 
   product-svc:
     container_name: product-svc
@@ -27,11 +28,12 @@ services:
       - APP_LOG_CONF_FILE=/build/product-svc/profiles/dev/log.yml
       - SEATA_CONF_FILE=/build/product-svc/profiles/dev/seata.yml
     depends_on:
+      - nacos
       - mysql
       - seata-product
 
   mysql:
-    image: mysql
+    image: mysql:5.7
     container_name: mysql
     environment:
       - MYSQL_ROOT_PASSWORD=123456
