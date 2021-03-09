@@ -1,16 +1,16 @@
 version: "3"
 services:
-  seata:
-    container_name: seata
+  seata-product:
+    container_name: seata-product
     image: seataio/seata-server
     ports:
       - "8091:8091"
     volumes:
-      - ./seata/registry.conf:/root/registry.conf
+      - ./seata-product/registry.conf:/seata-server/resources/registry.conf
+      - ./seata-product/file.conf:/seata-server/resources/file.conf
     environment:
       - SEATA_PORT=8091
       - STORE_MODE=file
-      - SEATA_CONFIG_NAME=/root/registry
     depends_on:
       - nacos
 
@@ -28,7 +28,7 @@ services:
       - SEATA_CONF_FILE=/build/product-svc/profiles/dev/seata.yml
     depends_on:
       - mysql
-      - seata
+      - seata-product
 
   mysql:
     image: mysql
