@@ -32,7 +32,7 @@ services:
     depends_on:
       - nacos
       - mysql
-      - seata-order
+      - seata
     ports:
       - "20000:20000"
 
@@ -51,7 +51,7 @@ services:
     depends_on:
       - nacos
       - mysql
-      - seata-product
+      - seata
     ports:
       - "20001:20001"
 
