@@ -4,38 +4,37 @@ filter: "seata"
 
 # application config
 application:
-  organization : "ikurento.com"
-  name : "BDTService"
-  module : "dubbogo user-info server"
-  version : "0.0.1"
-  owner : "ZX"
-  environment : "dev"
+  organization: "ikurento.com"
+  name: "BDTService"
+  module: "dubbogo user-info server"
+  version: "0.0.1"
+  owner: "ZX"
+  environment: "dev"
 
-registries :
-  "demoZk":
-    protocol: "zookeeper"
-    timeout	: "3s"
-    address: "127.0.0.1:2181"
+registries:
+  "nacos":
+    protocol: "nacos"
+    timeout: "3s"
+    address: "nacos:8848"
 
 services:
   "OrderSvc":
-    registry: "demoZk"
-    protocol : "dubbo"
+    registry: "nacos"
+    protocol: "dubbo"
     # 相当于dubbo.xml中的interface
-    interface : "com.dubbogo.seata.OrderSvc"
+    interface: "com.dubbogo.seata.OrderSvc"
     loadbalance: "random"
     warmup: "100"
     cluster: "failover"
     methods:
-    - name: "CreateSo"
-      retries: 1
-      loadbalance: "random"
+      - name: "CreateSo"
+        retries: 1
+        loadbalance: "random"
 
 protocols:
   "dubbo":
     name: "dubbo"
     port: 20000
-
 
 protocol_conf:
   dubbo:

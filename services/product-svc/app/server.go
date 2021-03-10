@@ -62,12 +62,10 @@ var (
 //      export SEATA_CONF_FILE="xxx"
 func main() {
 	confFile := os.Getenv(SEATA_CONF_FILE)
-	logger.Infof("init config file %s", confFile)
 	config2.InitConf(confFile)
 	client.NewRpcClient()
 	exec.InitDataResourceManager()
 
-	logger.Infof("init mysql config %s", config2.GetATConfig().DSN)
 	sqlDB, err := sql.Open("mysql", config2.GetATConfig().DSN)
 	if err != nil {
 		panic(err)
