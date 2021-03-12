@@ -1,6 +1,6 @@
 application_id: "product-svc"
 transaction_service_group: "seata:8091"
-enable-client-batch-send-request: true
+
 seata_version: "1.2.0"
 # tcp
 getty:
